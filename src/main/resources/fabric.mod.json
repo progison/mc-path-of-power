@@ -1,29 +1,30 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "pofpower",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Path of POWER",
+  "description": "Tweaks and POWER!!!",
   "authors": [
-    "Me!"
+    "x-agr333"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/progison/mc-path-of-power/wiki",
+    "sources": "https://github.com/progison/mc-path-of-power",
+    "issues": "https://github.com/progison/mc-path-of-power/issues"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "GNU GPLv3",
+  "icon": "assets/pofpower/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "team.progison.pofpower.PathOfPowerMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "pofpower.mixins.json"
   ],
 
   "depends": {
@@ -31,8 +32,5 @@
     "fabric": "*",
     "minecraft": "1.17.x",
     "java": ">=16"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }
