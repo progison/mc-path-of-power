@@ -4,10 +4,8 @@
   "version": "${version}",
 
   "name": "Path of POWER",
-  "description": "Tweaks and POWER!!!",
-  "authors": [
-    "x-agr333"
-  ],
+  "description": "Tweaks and POWEEER!!!",
+  "authors": ["x-agr333"],
   "contact": {
     "homepage": "https://github.com/progison/mc-path-of-power/wiki",
     "sources": "https://github.com/progison/mc-path-of-power",
@@ -19,13 +17,10 @@
 
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "team.progison.pofpower.PathOfPowerMod"
-    ]
+    "main": ["team.progison.pofpower.PathOfPowerMod"],
+    "client": ["team.progison.pofpower.PathOfPowerClient"]
   },
-  "mixins": [
-    "pofpower.mixins.json"
-  ],
+  "mixins": ["pofpower.mixins.json"],
 
   "depends": {
     "fabricloader": ">=0.11.3",
