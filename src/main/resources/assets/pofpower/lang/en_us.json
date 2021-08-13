@@ -1,3 +1,16 @@
 {
-  "block.pofpower.rope": "Rope"
+  "block.pofpower.rope": "Rope",
+  "item.minecraft.potion.effect.dwarvish_sense_potion": "Potion of Dwarvish Sense",
+  "item.minecraft.potion.effect.long_dwarvish_sense_potion": "Potion of Dwarvish Sense",
+  "item.minecraft.potion.effect.strong_dwarvish_sense_potion": "Potion of Dwarvish Sense",
+  "item.minecraft.splash_potion.effect.dwarvish_sense_potion": "Splash Potion of Dwarvish Sense",
+  "item.minecraft.splash_potion.effect.long_dwarvish_sense_potion": "Splash Potion of Dwarvish Sense",
+  "item.minecraft.splash_potion.effect.strong_dwarvish_sense_potion": "Splash Potion of Dwarvish Sense",
+  "item.minecraft.lingering_potion.effect.dwarvish_sense_potion": "Lingering Potion of Dwarvish Sense",
+  "item.minecraft.lingering_potion.effect.long_dwarvish_sense_potion": "Lingering Potion of Dwarvish Sense",
+  "item.minecraft.lingering_potion.effect.strong_dwarvish_sense_potion": "Lingering Potion of Dwarvish Sense",
+  "item.minecraft.tipped_arrow.effect.dwarvish_sense_potion": "Arrow of Dwarvish Sense",
+  "item.minecraft.tipped_arrow.effect.long_dwarvish_sense_potion": "Arrow of Dwarvish Sense",
+  "item.minecraft.tipped_arrow.effect.strong_dwarvish_sense_potion": "Arrow of Dwarvish Sense",
+  "effect.pofpower.dwarvish_sense": "Dwarvish Sense"
 }

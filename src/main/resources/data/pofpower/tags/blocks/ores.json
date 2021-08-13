@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#pofpower:rare_ores",
+    "#minecraft:coal_ores",
+    "#minecraft:iron_ores",
+    "#minecraft:copper_ores",
+    "#minecraft:redstone_ores",
+    "minecraft:nether_quartz_ore"
+  ]
+}

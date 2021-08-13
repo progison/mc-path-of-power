@@ -16,8 +16,8 @@ public class ModBlocks {
             FabricBlockSettings.of(Material.BAMBOO).noCollision().sounds(BlockSoundGroup.WOOL));
 
     public static void registerAll() {
-        Registry.register(Registry.BLOCK, new Identifier(PathOfPowerMod.namespace, "rope"), ROPE_BLOCK);
-        Registry.register(Registry.ITEM, new Identifier(PathOfPowerMod.namespace, "rope"),
+        Registry.register(Registry.BLOCK, new Identifier(PathOfPowerMod.MOD_ID, "rope"), ROPE_BLOCK);
+        Registry.register(Registry.ITEM, new Identifier(PathOfPowerMod.MOD_ID, "rope"),
                 new BlockItem(ROPE_BLOCK, new FabricItemSettings().group(ItemGroup.MISC)));
     }
 }

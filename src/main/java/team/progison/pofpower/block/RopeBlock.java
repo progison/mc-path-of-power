@@ -8,8 +8,6 @@ import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
-import net.minecraft.state.StateManager;
-import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.hit.BlockHitResult;
@@ -24,7 +22,6 @@ import net.minecraft.world.WorldView;
 
 import java.util.Random;
 
-/** @noinspection deprecation */
 public class RopeBlock extends Block {
     public static final VoxelShape shape = Block.createCuboidShape(6, 0, 6, 10, 16, 10);
 
@@ -108,5 +105,4 @@ public class RopeBlock extends Block {
         }
         return ActionResult.PASS;
     }
-
 }

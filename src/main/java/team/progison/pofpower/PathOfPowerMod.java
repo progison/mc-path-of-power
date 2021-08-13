@@ -2,15 +2,12 @@ package team.progison.pofpower;
 
 import net.fabricmc.api.ModInitializer;
 import team.progison.pofpower.registry.*;
-import net.fabricmc.loader.api.FabricLoader;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class PathOfPowerMod implements ModInitializer {
 	public static final Logger LOGGER = LogManager.getLogger();
-	public static final String namespace = "pofpower";
-	public static boolean zoom = false;
-	public static boolean lithiumInstalled = false;
+	public static final String MOD_ID = "pofpower";
 
 	@Override
 	public void onInitialize() {
@@ -18,8 +15,8 @@ public class PathOfPowerMod implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		lithiumInstalled = FabricLoader.getInstance().isModLoaded("lithium");
-
 		ModBlocks.registerAll();
+		ModEffects.registerAll();
+		ModPotions.registerAll();
 	}
 }
