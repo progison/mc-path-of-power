@@ -1,0 +1,24 @@
+{
+  "ore_reveals": {
+    "subtitle": "subtitles.pofpower.ore_reveals",
+    "sounds": [
+      {
+        "name": "block.amethyst_block.chime",
+        "type": "event",
+        "pitch": 0.8
+      },
+      {
+        "name": "block.amethyst_block.chime",
+        "type": "event",
+
+        "pitch": 1
+      },
+      {
+        "name": "block.amethyst_block.chime",
+        "type": "event",
+
+        "pitch": 1.4
+      }
+    ]
+  }
+}

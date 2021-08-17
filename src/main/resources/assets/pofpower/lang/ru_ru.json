@@ -1,3 +1,17 @@
 {
-  "block.pofpower.rope": "Верёвка"
+  "block.pofpower.rope": "Верёвка",
+  "item.minecraft.potion.effect.dwarvish_sense_potion": "Зелье гномьего чутья",
+  "item.minecraft.potion.effect.long_dwarvish_sense_potion": "Зелье гномьего чутья",
+  "item.minecraft.potion.effect.strong_dwarvish_sense_potion": "Зелье гномьего чутья",
+  "item.minecraft.splash_potion.effect.dwarvish_sense_potion": "Взрывное зелье гномьего чутья",
+  "item.minecraft.splash_potion.effect.long_dwarvish_sense_potion": "Взрывное зелье гномьего чутья",
+  "item.minecraft.splash_potion.effect.strong_dwarvish_sense_potion": "Взрывное зелье гномьего чутья",
+  "item.minecraft.lingering_potion.effect.dwarvish_sense_potion": "Туманное зелье гномьего чутья",
+  "item.minecraft.lingering_potion.effect.long_dwarvish_sense_potion": "Туманное зелье гномьего чутья",
+  "item.minecraft.lingering_potion.effect.strong_dwarvish_sense_potion": "Туманное зелье гномьего чутья",
+  "item.minecraft.tipped_arrow.effect.dwarvish_sense_potion": "Стрела гномьего чутья",
+  "item.minecraft.tipped_arrow.effect.long_dwarvish_sense_potion": "Стрела гномьего чутья",
+  "item.minecraft.tipped_arrow.effect.strong_dwarvish_sense_potion": "Стрела гномьего чутья",
+  "effect.pofpower.dwarvish_sense": "Гномье чутье",
+  "subtitles.pofpower.ore_reveals": "Руда проявляется"
 }

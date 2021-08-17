@@ -89,8 +89,10 @@ public class RopeBlock extends Block {
             BlockHitResult hit) {
         if (!state.isOf(this))
             return ActionResult.PASS;
-        if (!player.getMainHandStack().isOf(Item.fromBlock(ModBlocks.ROPE_BLOCK)))
+
+        if (!player.getStackInHand(hand).isOf(Item.fromBlock(ModBlocks.ROPE_BLOCK)))
             return ActionResult.PASS;
+
         BlockPos down = pos.offset(Direction.DOWN);
         BlockState statedown = world.getBlockState(down);
         if (statedown.isOf(ModBlocks.ROPE_BLOCK)) {
@@ -100,9 +102,8 @@ public class RopeBlock extends Block {
             world.playSound(null, pos.getX(), pos.getY(), pos.getZ(), SoundEvents.BLOCK_WOOL_PLACE,
                     SoundCategory.BLOCKS, 1.0F, 1.0F);
             if (!player.isCreative())
-                player.getMainHandStack().decrement(1);
-            return ActionResult.SUCCESS;
+                player.getStackInHand(hand).decrement(1);
         }
-        return ActionResult.PASS;
+        return ActionResult.SUCCESS;
     }
 }

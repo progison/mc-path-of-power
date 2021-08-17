@@ -12,5 +12,6 @@
   "item.minecraft.tipped_arrow.effect.dwarvish_sense_potion": "Arrow of Dwarvish Sense",
   "item.minecraft.tipped_arrow.effect.long_dwarvish_sense_potion": "Arrow of Dwarvish Sense",
   "item.minecraft.tipped_arrow.effect.strong_dwarvish_sense_potion": "Arrow of Dwarvish Sense",
-  "effect.pofpower.dwarvish_sense": "Dwarvish Sense"
+  "effect.pofpower.dwarvish_sense": "Dwarvish Sense",
+  "subtitles.pofpower.ore_reveals": "Ore reveals"
 }
