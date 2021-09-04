@@ -6,7 +6,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class PathOfPowerMod implements ModInitializer {
-	public static final Logger LOGGER = LogManager.getLogger();
+	public static final Logger LOGGER = LogManager.getLogger("Path of POWER!!!");
 	public static final String MOD_ID = "pofpower";
 
 	@Override
@@ -18,5 +18,6 @@ public class PathOfPowerMod implements ModInitializer {
 		ModBlocks.registerAll();
 		ModEffects.registerAll();
 		ModPotions.registerAll();
+		ModScreens.registerAll();
 	}
 }

@@ -3,7 +3,13 @@
   "minVersion": "0.8",
   "package": "team.progison.pofpower.mixin",
   "compatibilityLevel": "JAVA_16",
-  "mixins": ["BrewingRecipeRegistryMixin"],
+  "mixins": [
+    "BrewingRecipeRegistryMixin",
+    "AnimalEntityMixin",
+    "GoalSelectorAccessor",
+    "TemptGoalAccessor",
+    "BreedTaskMixin"
+  ],
   "client": [],
   "injectors": {
     "defaultRequire": 1

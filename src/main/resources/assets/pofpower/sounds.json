@@ -10,13 +10,11 @@
       {
         "name": "block.amethyst_block.chime",
         "type": "event",
-
         "pitch": 1
       },
       {
         "name": "block.amethyst_block.chime",
         "type": "event",
-
         "pitch": 1.4
       }
     ]

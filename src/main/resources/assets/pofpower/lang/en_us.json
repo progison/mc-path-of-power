@@ -1,5 +1,7 @@
 {
   "block.pofpower.rope": "Rope",
+  "block.pofpower.feeding_trough": "Feeding Trough",
+
   "item.minecraft.potion.effect.dwarvish_sense_potion": "Potion of Dwarvish Sense",
   "item.minecraft.potion.effect.long_dwarvish_sense_potion": "Potion of Dwarvish Sense",
   "item.minecraft.potion.effect.strong_dwarvish_sense_potion": "Potion of Dwarvish Sense",
